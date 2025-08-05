@@ -1,0 +1,5 @@
+0805
+安裝 git desktop 新增專案 113TKUDS_2
+vscode 插件
+java安裝
+新增githubdesktop 截圖
