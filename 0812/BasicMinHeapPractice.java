@@ -83,4 +83,22 @@ public class BasicMinHeapPractice {
     public boolean isEmpty() {
         return heap.isEmpty();
     }
+
+    public static void main(String[] args) {
+        BasicMinHeapPractice minHeap = new BasicMinHeapPractice();
+
+        int[] values = {15, 10, 20, 8, 25, 5};
+        for (int value : values) {
+            minHeap.insert(value);
+            System.out.println("插入 " + value + " 後: " + minHeap.heap);
+        }
+
+        
+        // 依序取出所有元素（會得到升序排列）
+        System.out.println("\n依序取出最小值:");
+        while (!minHeap.isEmpty()) {
+            System.out.println("取出: " + minHeap.extractMin());
+        }
+    }
+
 }
