@@ -3,7 +3,7 @@ import java.util.*;
 public class BasicMinHeapPractice {
     private List<Integer> heap;
     
-    public MinHeap() {
+    public BasicMinHeapPractice() {
         heap = new ArrayList<>();
     }
     
@@ -74,6 +74,10 @@ public class BasicMinHeapPractice {
     }
     
     return heap.get(0);
+    }
+
+    public int size() {
+        return heap.size();
     }
 
     public boolean isEmpty() {
